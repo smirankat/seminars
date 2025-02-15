@@ -9,6 +9,6 @@
    * npm install
    * npm start
 
-**And then you can find the application at the following links:**
+**And then you can find the application at the following link:**
 
 http://localhost:3000/
