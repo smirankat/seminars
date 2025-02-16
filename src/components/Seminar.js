@@ -34,21 +34,25 @@ function Seminar({
       <Modal visible={modal} setVisible={setModal}>
         <form>
           <input
+            value={title}
             onChange={(e) => edit(id, "title", e.target.value)}
             type="text"
             placeholder="Редактировать название семинара"
           />
           <textarea
+            value={description}
             onChange={(e) => edit(id, "description", e.target.value)}
             type="text"
             placeholder="Редактировать описание семинара"
           />
           <input
+            value={date}
             onChange={(e) => edit(id, "date", e.target.value)}
             type="text"
             placeholder="Редактировать дату семинара"
           />
           <input
+            value={time}
             onChange={(e) => edit(id, "time", e.target.value)}
             type="text"
             placeholder="Редактировать время семинара"
